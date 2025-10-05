@@ -42,4 +42,14 @@ footer {
  display: inline-block;
  width: 1107px;
  height: 200px;
+ margin-left: 200px;
+}
+
+.footerParagraph{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.footer{
+  float:clear;
 }
