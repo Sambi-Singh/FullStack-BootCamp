@@ -11,13 +11,15 @@
     <style>
       body {
         font-family: "Sono", sans-serif;
+      
       }
 
       .pricing-container{
+        margin-top: 35%;
         display:flex;
         gap:20px;
         justify-content: center;
-        align-items: center;
+        
         background-color: blue;
         
         
@@ -25,10 +27,22 @@
 
       .pricing-container > *{
         background-color: red;
+        flex-grow: 0;
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        
+      }
+
+      .plan-features{
+        list-style-type: none;
       }
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
+        .pricing-container{
+          flex-wrap: wrap;
+        }
       }
     </style>
   </head>
