@@ -21,6 +21,8 @@
         justify-content: center;
         
         background-color: blue;
+        flex-shrink: 1;
+        flex-grow: 1;
         
         
       }
@@ -29,14 +31,51 @@
         background-color: red;
         flex-grow: 0;
         height: 200px;
-        width: 200px;
-        text-align: center;
+        width: 300px;
+        
+        padding: 5px 5px 5px 5px;
         
       }
 
       .plan-features{
         list-style-type: none;
       }
+
+      .plan-title{
+        font-weight: 550;
+        text-align: center;
+
+      }
+
+      .plan-price{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 600;
+        background-color: orange;
+      }
+
+      .plan-price > *{
+        align-content: center;
+        
+      }
+
+    
+
+      .plan-features{
+        background-color: pink;
+  
+        
+      }
+
+      .pricing-plan{
+        text-align: center;
+
+
+      }
+    
+       
+        
+      
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
