@@ -25,8 +25,8 @@
       width: 748px;
       background-color:  black;
       gap: 9px;
-      grid-template-columns: 320px 198px351px;
-      grid-template-rows: 414px 1fr 20px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
 
     }
 
@@ -35,8 +35,28 @@
       
      
     }
-    .white_box{
+    .white_box_1{
       background-color: #F0F1EC;
+      grid-column: span 3;
+     
+    }
+
+    .white_box_2{
+      background-color: #F0F1EC;
+      grid-column-start: 1;
+      grid-column-end: span 1;
+      grid-row-start: 2;
+      grid-row-end: span 2;
+
+    }
+
+    .white_box_3{
+      background-color: #F0F1EC;
+      grid-column-start: 1;
+      grid-column-end: span 1;
+      grid-row-start: 4;
+      grid-row-end: span 2;
+
     }
 
     .yellow_box{
@@ -61,11 +81,11 @@
   <!-- Write your HTML here -->
    <div class="grid_container">
     <div class="red_box"></div>
-    <div class="white_box"></div>
-    <div class="white_box"></div>
-    <div class="white_box"></div>
-    <div class="white_box"></div>
-    <div class="yellow_box"></div>
+    <div class="white_box_1"></div>
+    <div class="white_box_2"></div>
+    <div class="white_box_3"></div>
+
+   
 
 
 
